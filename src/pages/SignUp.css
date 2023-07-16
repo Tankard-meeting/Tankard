@@ -1,0 +1,109 @@
+.page{
+    position : relative;
+    top : 0;
+    bottom : 0;
+    width: 100%;
+    max-width: 1168px;
+    height: 2556px;
+    padding : 0, 20px;
+
+    left : 50%;
+    transform : translate(-50%, 0);
+
+    background-color: #F3CE8D;
+
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.titleImg {
+    width: 620px;
+    height: 424px;
+    margin-left: 280px;
+    margin-top: 200px;
+}
+
+.contentWrap {
+    margin-top : 26px;
+    flex : 1;
+
+}
+
+.inputTitle {
+    margin-left: 39px;
+    font-size : 30px;
+
+    font-weight: 600;
+    color : black
+}
+.inputWrap {
+    display: flex;
+    border-radius: 8px;
+    height : 130px;
+    padding : 19px;
+    margin-top: 8px;
+    margin-left: 39px;
+    margin-right: 39px;
+    background-color: white;
+    border: 1p solid #e2e0e0;
+}
+
+.inputWrap:focus-within {
+    border: 1px solid #9e30f4;
+}
+
+.input {
+    width: 100%;
+    outline: none;
+    border : none;
+    font-size : 40px;
+    font-weight: 400;
+    color : black;
+}
+
+.input::placeholder{
+    color : black;
+}
+
+.errorMessageWrap {
+    
+    margin-left: 39px;
+    margin-bottom: 8px;
+    margin-top: 4px;
+    color : #ef0000;
+    font-size: 12px;
+}
+
+.buttomButtom {
+    width: 1091px;
+    height: 154px;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    background-color:#0379E5;
+    color: white;
+    margin-top: 30px;
+    margin-left: 39px;
+    margin-right: 39px;
+    margin-bottom: 16px;
+    cursor:pointer;
+
+    
+
+}
+
+.buttomButtom:disabled {
+    background-color: #dadada;
+    color: white;
+}
+
+
+.register {
+    font-size: 32px;
+    margin-left: 669px;
+}
