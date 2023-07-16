@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import SignUp from './pages/SignUp';
-import '../src/pages/SignUp.css'
+import MainPage from './pages/MainPage';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <SignUp />
+    <MainPage />
   </React.StrictMode>
 );
 
